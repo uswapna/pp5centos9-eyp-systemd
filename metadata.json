@@ -1,7 +1,7 @@
 {
   "name": "eyp-systemd",
-  "version": "0.3.0",
-  "author": "eyp",
+  "version": "0.3.1",
+  "author": "Jordi Prats",
   "summary": "management of systemd services, services dropins, sockets, timers, mounts, automounts, tmpfiles, timesyncd, journald, logind and resolved",
   "license": "Apache-2.0",
   "source": "https://github.com/SaltaIT/eyp-systemd",
