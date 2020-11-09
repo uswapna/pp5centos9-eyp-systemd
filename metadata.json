@@ -4,9 +4,9 @@
   "author": "eyp",
   "summary": "management of systemd services, services dropins, sockets, timers, mounts, automounts, tmpfiles, timesyncd, journald, logind and resolved",
   "license": "Apache-2.0",
-  "source": "https://github.com/jordiprats/eyp-systemd",
-  "project_page": "https://github.com/jordiprats/eyp-systemd",
-  "issues_url": "https://github.com/jordiprats/eyp-systemd/issues",
+  "source": "https://github.com/SaltaIT/eyp-systemd",
+  "project_page": "https://github.com/SaltaIT/eyp-systemd",
+  "issues_url": "https://github.com/SaltaIT/eyp-systemd/issues",
   "dependencies": [
     {"name":"puppetlabs/stdlib","version_requirement":">= 1.0.0 < 9.9.9"},
     {"name":"puppetlabs/concat","version_requirement":">= 1.0.0 < 9.9.9"},
