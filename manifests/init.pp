@@ -13,7 +13,6 @@ class systemd inherits systemd::params {
   }
 
   #TODO: compatibility, to be removed in the future
-  # related: https://github.com/NTTCom-MS/eyp-systemd/issues/35
   exec { 'systemctl reload':
     command     => 'systemctl daemon-reload',
     refreshonly => true,
