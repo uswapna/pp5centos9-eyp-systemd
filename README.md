@@ -493,7 +493,7 @@ For a detailed explanation of all the timer settings, remember to read `systemd.
 
 ## Limitations
 
-Should work anywhere, enforced testing on **CentOS 7** and **Ubuntu 16.04** using [travis-ci](https://travis-ci.org/NTTCom-MS/eyp-systemd)
+Should work anywhere, enforced testing on **CentOS 7** and **Ubuntu 16.04** using [travis-ci](https://travis-ci.org/SaltaIT/eyp-systemd)
 
 ## Development
 
