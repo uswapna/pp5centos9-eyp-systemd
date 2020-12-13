@@ -493,7 +493,7 @@ For a detailed explanation of all the timer settings, remember to read `systemd.
 
 ## Limitations
 
-Should work anywhere, enforced testing on **CentOS 7** and **Ubuntu 16.04** using [travis-ci](https://travis-ci.org/SaltaIT/eyp-systemd)
+Should work on any system using **systemd**
 
 ## Development
 
@@ -504,6 +504,7 @@ have some test to check both presence and absence of any feature
 
 * add deeper testing to functionality
 * review documentation
+* fix acceptance testing to use [github action puppetmasterless-action](https://github.com/jordiprats/puppetmasterless-action)
 
 ### Contributing
 
