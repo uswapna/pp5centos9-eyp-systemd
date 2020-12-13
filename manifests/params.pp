@@ -1,14 +1,14 @@
 class systemd::params {
 
-  case $::osfamily
+  case $facts['os']['family']
   {
     'redhat' :
     {
-      case $::operatingsystem
+      case $facts['os']['name']
       {
         'Fedora':
         {
-          case $::operatingsystemrelease
+          case $facts['os']['release']['full']
           {
             /^1[5-9].*$/:
             {
@@ -21,7 +21,7 @@ class systemd::params {
         }
         'Amazon':
         {
-          case $::operatingsystemrelease
+          case $facts['os']['release']['full']
           {
             /^[2].*$/:
             {
@@ -31,7 +31,7 @@ class systemd::params {
         }
         default:
         {
-          case $::operatingsystemrelease
+          case $facts['os']['release']['full']
           {
             /^[78].*$/:
             {
@@ -43,11 +43,11 @@ class systemd::params {
     }
     'Debian':
     {
-      case $::operatingsystem
+      case $facts['os']['name']
       {
         'Ubuntu':
         {
-          case $::operatingsystemrelease
+          case $facts['os']['release']['full']
           {
             /^1[68].*$/:
             {
@@ -60,7 +60,7 @@ class systemd::params {
         }
         'Debian':
         {
-          case $::operatingsystemrelease
+          case $facts['os']['release']['full']
           {
             /^[89].*$/:
             {
@@ -76,7 +76,7 @@ class systemd::params {
     }
     'Suse' :
     {
-      case $::operatingsystemrelease
+      case $facts['os']['release']['full']
       {
         /11.4/:
         {
