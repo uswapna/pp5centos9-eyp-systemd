@@ -7,5 +7,5 @@ systemd::service { 'test':
 
 service { 'test':
   ensure  => 'running',
-  require => Class['::systemd'],
+  require => Class['systemd'],
 }

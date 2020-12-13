@@ -12,5 +12,5 @@ systemd::timer { 'test':
 
 service { 'test.timer':
   ensure  => 'running',
-  require => Class['::systemd'],
+  require => Class['systemd'],
 }
