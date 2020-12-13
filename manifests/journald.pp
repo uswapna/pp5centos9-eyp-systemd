@@ -50,7 +50,7 @@ class systemd::journald (
   # validate_re($max_level_wall, ['^emerg$', '^alert$', '^crit$', '^err$',
   #   '^warning$', '^notice$', '^info$', '^debug$'])
 
-  class { '::systemd::journald::config': } ~>
-  class { '::systemd::journald::service': } ->
-  Class['::systemd::journald']
+  class { 'systemd::journald::config': } ~>
+  class { 'systemd::journald::service': } ->
+  Class['systemd::journald']
 }
