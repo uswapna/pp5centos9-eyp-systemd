@@ -68,6 +68,9 @@ class systemd::params {
             /^10.*$/:
             {
             }
+            /^11.*$/:
+            {
+            }
             default: { fail('Unsupported Debian version!')  }
           }
         }
