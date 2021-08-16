@@ -12,7 +12,7 @@ class systemd::resolved (
                         ) inherits systemd::params {
 
 
-  class { '::systemd::resolved::config': } ~>
-  class { '::systemd::resolved::service': } ->
-  Class['::systemd::resolved']
+  class { 'systemd::resolved::config': } ~>
+  class { 'systemd::resolved::service': } ->
+  Class['systemd::resolved']
 }

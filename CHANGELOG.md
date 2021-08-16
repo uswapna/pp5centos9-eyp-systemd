@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## 3.1.0
+
+* INCOMPATIBLE CHANGE:
+  - Removed legacy facts usage (puppet 3.8 support was dropped on **0.3.0**)
+* Fixed github actions
+  - puppet-lint
+  - puppet-validate
+  - puppet-metadata-lint
+
 ## 0.3.0
 
 * INCOMPATIBLE CHANGE:

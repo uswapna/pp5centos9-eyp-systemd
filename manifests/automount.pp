@@ -29,7 +29,7 @@ define systemd::automount (
                             # global
                             $ensure                          = 'present',
                           ) {
-  contain ::systemd
+  contain systemd
 
   $mount_name = regsubst(regsubst($where, '/', '-', 'G'), '^-', '', '')
 

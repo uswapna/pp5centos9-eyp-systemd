@@ -17,7 +17,7 @@ define systemd::target(
                         $condition_path_is_symbolic_link = undef,
                         $default_dependencies            = undef,
                       ) {
-  include ::systemd
+  include systemd
 
   concat { "/etc/systemd/system/${target_name}.target":
     ensure => $ensure,

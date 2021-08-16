@@ -35,7 +35,7 @@ define systemd::socket(
                         $default_dependencies            = undef,
                       ) {
 
-  contain ::systemd
+  contain systemd
 
   concat { "/etc/systemd/system/${socket_name}.socket":
     ensure => $ensure,

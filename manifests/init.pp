@@ -12,7 +12,7 @@ class systemd inherits systemd::params {
     refreshonly => true,
   }
 
-  #TODO: compatibility, to be removed in the future
+  #TODO: compatibility, to be removed, maybe
   exec { 'systemctl reload':
     command     => 'systemctl daemon-reload',
     refreshonly => true,
