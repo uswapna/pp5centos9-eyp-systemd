@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 3.1.1
+
+* Added support for **Debian 11** - thanks to [Henry Hirsch](https://github.com/oOHenry) for this [PR-4](https://github.com/SaltaIT/eyp-systemd/pull/4)
+
 ## 3.1.0
 
 * INCOMPATIBLE CHANGE:
