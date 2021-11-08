@@ -72,6 +72,7 @@ define systemd::service (
                           $allow_isolate                   = undef,
                           $condition_path_is_symbolic_link = undef,
                           $default_dependencies            = undef,
+                          $requires_mounts_for             = [],
                         ) {
 
   if($type!=undef and $forking==true)
