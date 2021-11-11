@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 3.1.2
+
+* Added support for **RequiresMountsFor** parameter - thanks to [Neil Vergottini](https://github.com/nvergottini) for this [PR-6](https://github.com/SaltaIT/eyp-systemd/pull/6)
+
 ## 3.1.1
 
 * Added support for **Debian 11** - thanks to [Henry Hirsch](https://github.com/oOHenry) for this [PR-4](https://github.com/SaltaIT/eyp-systemd/pull/4)
