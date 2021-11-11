@@ -20,6 +20,9 @@ Conflicts=<%= @conflicts.join(' ') %>
 <% if @requires.any? -%>
 Requires=<%= @requires.join(' ') %>
 <% end -%>
+<% if @requires_mounts_for.any? -%>
+RequiresMountsFor=<%= @requires_mounts_for.join(' ') %>
+<% end -%>
 <% if @binds_to.any? -%>
 BindsTo=<%= @binds_to.join(' ') %>
 <% end -%>
