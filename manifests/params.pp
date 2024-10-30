@@ -33,7 +33,7 @@ class systemd::params {
         {
           case $facts['os']['release']['full']
           {
-            /^[78].*$/:
+            /^[789].*$/:
             {
             }
             default: { fail('Unsupported RHEL/CentOS version!')  }
